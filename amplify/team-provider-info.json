@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gpsdb1-dev-195551-authRole",
+      "UnauthRoleArn": "arn:aws:iam::702428971473:role/amplify-gpsdb1-dev-195551-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::702428971473:role/amplify-gpsdb1-dev-195551-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-gpsdb1-dev-195551-deployment",
+      "UnauthRoleName": "amplify-gpsdb1-dev-195551-unauthRole",
+      "StackName": "amplify-gpsdb1-dev-195551",
+      "StackId": "arn:aws:cloudformation:us-east-1:702428971473:stack/amplify-gpsdb1-dev-195551/a5a0ce90-5b1a-11ed-8583-120c6f66e13d",
+      "AmplifyAppId": "d23ozbzddyj9qh"
+    },
+    "categories": {
+      "api": {
+        "gpsdb1": {}
+      }
+    }
+  }
+}

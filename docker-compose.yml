@@ -1,0 +1,13 @@
+version: '3'
+services: 
+    gps-track:
+        build: 
+            context: .
+            dockerfile: Dockerfile.dev
+        command: npm run start
+        container_name: gps-track
+        ports:
+            - "3000:3000"        
+        volumes: 
+            - ./:/gps-track
+            - /gps-track/node_modules
